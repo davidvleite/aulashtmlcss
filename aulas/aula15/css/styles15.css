@@ -1,0 +1,38 @@
+*{
+          margin: 0;
+          padding: 0;}
+
+
+          /*rem relacionado ao hmtl e em relacionado a div,class etc. * vw vh = vielwport 1 a 100*/
+html {
+          font-size: 62,5%;
+          scroll-behavior: smooth; /* para rolar para o link devagar*/
+}
+
+
+.pai {
+          width: 50rem; /*500px*/
+          height: 100vh;
+          background: yellow;
+}
+
+.pai > div {
+          width: 50%;
+          height: 50rem;
+          background: blue;
+}
+
+.color-one {
+                    background: rgb(0, 140, 255);
+
+}
+
+.color-two {
+                    background: rgb(255, 102, 0);
+
+}
+
+p {
+          font-size: 1.6rem;
+
+}

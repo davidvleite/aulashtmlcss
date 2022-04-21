@@ -1,0 +1,22 @@
+*{
+          margin: 0;
+          padding: 0;}
+
+
+
+ul li::after{
+          content: '  - ';
+          background: red;
+          color:  #fff;
+          display: block;
+
+}
+
+p:: ::first-letter {
+          font-size: 50px;
+          display:block
+          float: left
+          margin 0 10px 10px 0;
+          
+
+}
