@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+</head>
+
+<style>
+          * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;                 
+          
+          }
+
+          .flex-container {
+                    
+                    display: flex; /*ao colocar disp flex ganha automaticamente um flex-direction "row", justify-content" flex-start, align-item "stretch" */
+                    justify-content: space-between;
+                    align-items: flex-start;                
+                    background: yellow;
+                    height: 800px;
+                    /* flex-wrap: wrap = opucpar todo o  espaço da tela quando eu diminuir a tela */
+                    /* align-content: center; alinha todo o conteudo ao centro*/
+
+}
+
+
+          .flex-item {
+                    color: aliceblue;
+                    background: red;
+                    width: 100%;
+                    
+          }
+
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+          <div class="flex-container">
+                    <div class="flex-item">Um</div>
+                    <div class="flex-item">Dois</div>
+                    <div class="flex-item">Três</div>
+                    <div class="flex-item">Quatro</div>
+                    <div class="flex-item">Cinco</div>
+          </div>
+</body>
+</html>

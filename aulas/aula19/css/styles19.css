@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;     
+  box-sizing: border-box;
+}
+
+body {
+ font: sans-serif;
+ font-size: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+
+
+
+
+                         
+
