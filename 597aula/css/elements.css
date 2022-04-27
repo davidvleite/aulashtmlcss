@@ -1,6 +1,7 @@
 * {
           margin: 0;
           padding: 0;
+          box-sizing: border-box;
 }
 
 html {
@@ -33,12 +34,11 @@ h1 {
           font-size: 6rem;
           text-transform: uppercase;
 }
-
-h2 h2 {
+h2 {
           font-size: 6rem;
           margin-bottom: 5rem;
           text-transform: uppercase;
-          line-height: 1.2;
+          line-height: 1.2;          
 }
 
 h3 {
@@ -63,4 +63,39 @@ a {
 
 p {
           margin-bottom: 3rem;
+}
+
+.responsive-table {
+          overflow: hidden;
+          overflow-x: auto;
+          
+}
+
+table {
+          width: 100%;
+          border-collapse: collapse;
+          min-width: 360px;
+          
+}
+
+table caption {
+          font-style: italic;
+          font-size: 1.6rem;
+          text-align: left;
+          margin-bottom: 1rem;
+
+}
+table td, table th {
+          white-space: nowrap; /* para n quebrar o texto da tabela*/
+          border: 0.1rem solid var(--light-gray-color);
+          text-align: left;
+          padding: 1rem;
+}
+
+tfoot td {
+          background: var(--light-gray-color);
+}
+
+tfoot td,table th {
+          background: var(--light-gray-color);
 }
